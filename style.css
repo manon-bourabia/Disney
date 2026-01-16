@@ -43,8 +43,7 @@ a:link{color: black;}
 .hulu {
   position: relative; 
   z-index: 1;       
-  display: block;
-  width: auto;
+  width: 1600px;
   height: 70vh;
   display: flex;
   justify-content: center;
@@ -52,7 +51,7 @@ a:link{color: black;}
 
 .contentBody {
   position: relative;
-  top:-80%; 
+  top:-86%; 
   left: 60%;
   z-index: 10;
   color: white;
@@ -60,7 +59,6 @@ a:link{color: black;}
   display: flex;
   flex-direction: column;
   max-width: 36%;
-  height: ;
 }
 .text{
    display: flex;
@@ -140,16 +138,110 @@ a:link{color: black;}
 .spectacle{
     font-weight: 700;
 }
+.disneyplus{
+    background-color: #054553;
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    font-family:Helvetica, sans-serif;
+    margin-top: 40px;
+}
 .disney1{
     display: flex;
     justify-content: center;
-    gap:50px;
-    margin-top: 20px;
+    gap:30px;
     background-color: #054553;
     color: white;
+    font-family:Helvetica, sans-serif;
+    height: 300px;
 }
 .percy{
     display: flex;
     flex-direction: column;
-    width: 315px;
+    gap: 20px;
+    font-size: small;
+    margin-top: 30px;
 }
+.amateur{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: small;
+    margin-top: 30px;
+}
+.guepard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: small;
+    margin-top: 30px;
+}
+.btn2{
+    background-color:#054553;
+    text-align: center;
+}
+.btn-sub{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    width: 160px;
+    font-size: 20px;
+    padding: 10px;
+    gap: 60px;
+    border-radius: 25px;
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+}
+.abn{
+    background-color:#054553;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-size: smaller;
+}
+.parcs{
+    text-align: center;
+    margin-top: 15px;
+}
+.parc-line{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 20px;
+}
+.disney-ad{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 630px;
+    gap: 16px;
+    height: 651px;
+}
+
+.waltdisney{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 315px;
+    gap: 16px;
+    height: 651px;
+}
+.cruise{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 315px;
+    gap: 16px;
+    height: 651px;
+}
+.
+.spectacles{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top: 20px;
+}
+
